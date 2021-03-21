@@ -17,6 +17,7 @@ This is a simplified version of [The Primeagen's Neovim config](https://github.c
   - access dotfiles with `space vrc`
 - [compe](https://github.com/hrsh7th/nvim-compe) for completion.
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) for syntax highlighting.
+  - Please run :TSInstall c and/or :TSInstall cpp
 - [Gruvbox color scheme](https://github.com/morhetz/gruvbox) because gruvbox.
 - [vimspector](https://github.com/puremourning/vimspector) and [vim-maximizer](https://github.com/szw/vim-maximizer) for debugging.
 - [vim-dispatch](https://github.com/tpope/vim-dispatch)
