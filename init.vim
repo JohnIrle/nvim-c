@@ -9,6 +9,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Lsp
   Plug 'neovim/nvim-lspconfig'
   Plug 'hrsh7th/nvim-compe'
+  Plug 'onsails/lspkind-nvim'
+
   " Neovim Tree sitter
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
@@ -16,12 +18,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'puremourning/vimspector'
   Plug 'szw/vim-maximizer'
 
-
+  " Git
   Plug 'tpope/vim-fugitive'
   Plug 'junegunn/gv.vim'
+
   Plug 'vim-utils/vim-man'
   Plug 'tpope/vim-dispatch'
-  Plug 'tpope/vim-projectionist'
 
   " syntax
   Plug 'gruvbox-community/gruvbox'
