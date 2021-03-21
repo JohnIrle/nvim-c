@@ -1,5 +1,7 @@
 require'lspconfig'.clangd.setup {}
 
+require('lspkind').init()
+
 require'compe'.setup {
   enabled = true;
   autocomplete = true;
