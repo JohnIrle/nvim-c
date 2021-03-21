@@ -27,7 +27,7 @@ Plug 'tpope/vim-projectionist'
 
 " syntax
 Plug 'gruvbox-community/gruvbox'
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'octol/vim-cpp-enhanced-hig`hlight'
 
 
 " telescope requirements...
