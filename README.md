@@ -1,13 +1,13 @@
-# Example nvim config for C and C++ development
+# Simple nvim config for C and C++ development
 
 ![Screenshot](/c-example-screenshot.png)
 
 This is a simplified version of [The Primeagen's Neovim config](https://github.com/awesome-streamers/awesome-streamerrc/tree/master/ThePrimeagen)
 
 - This config depends on the `0.5` branch of neovim. This will not work on `0.4.4`
-- Because this depends on a non stable version of neovim, some issues may arrise over time.
+- Because this depends on a non stable version of neovim, some issues may arise over time.
 - Clone this into `~/.config/` and rename it to `nvim`.
-- Start nvim and ignore error messages. Run `:PlugInstall` and quit when installation is finished
+- Start nvim and ignore error messages. Run `:PlugInstall` and quit when installation is finished.
 - Open nvim again and everything should run.
 
 ## Features
