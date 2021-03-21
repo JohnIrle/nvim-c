@@ -41,15 +41,6 @@ call plug#end()
 
 colorscheme gruvbox
 
-source $HOME/.config/nvim/plugin/git.vim
-source $HOME/.config/nvim/plugin/lsp.vim
-source $HOME/.config/nvim/plugin/navigation.vim
-source $HOME/.config/nvim/plugin/netrw.vim
-source $HOME/.config/nvim/plugin/sets.vim
-source $HOME/.config/nvim/plugin/telescope.vim
-source $HOME/.config/nvim/plugin/vimspector.vim
-
-
 lua require("plugins")
 lua require("lsp")
 
