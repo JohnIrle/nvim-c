@@ -1,4 +1,4 @@
-# Example nvim config for C and C++ development
+# Simple nvim config for C and C++ development
 
 ![Screenshot](/c-example-screenshot.png)
 
