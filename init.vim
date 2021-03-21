@@ -8,7 +8,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Lsp
   Plug 'neovim/nvim-lspconfig'
-
+  Plug 'hrsh7th/nvim-compe'
   " Neovim Tree sitter
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " syntax
   Plug 'gruvbox-community/gruvbox'
-  Plug 'octol/vim-cpp-enhanced-hig`hlight'
+  Plug 'octol/vim-cpp-enhanced-highlight'
 
 
   " telescope requirements...
@@ -38,6 +38,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'sbdchd/neoformat'
 
 call plug#end()
+
+colorscheme gruvbox
+
+source $HOME/.config/nvim/plugin/git.vim
+source $HOME/.config/nvim/plugin/lsp.vim
+source $HOME/.config/nvim/plugin/navigation.vim
+source $HOME/.config/nvim/plugin/netrw.vim
+source $HOME/.config/nvim/plugin/sets.vim
+source $HOME/.config/nvim/plugin/telescope.vim
+source $HOME/.config/nvim/plugin/vimspector.vim
 
 
 lua require("plugins")
