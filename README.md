@@ -1,5 +1,7 @@
 # Example nvim config for C and C++ development
 
+![Screenshot](/c-example-screenshot.png)
+
 This is a simplified version of [The Primeagen's Neovim config](https://github.com/awesome-streamers/awesome-streamerrc/tree/master/ThePrimeagen)
 
 - Clone this into `~/.config/` and rename it to `nvim`.
