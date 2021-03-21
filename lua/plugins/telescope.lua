@@ -31,6 +31,7 @@ M.search_dotfiles = function()
     require("telescope.builtin").find_files({
         prompt_title = "< VimRC >",
         cwd = "$HOME/.config/nvim",
+        file_ignore_patterns = {"lua%-language%-server/.*", "autoload/.*"}
     })
 end
 return M
